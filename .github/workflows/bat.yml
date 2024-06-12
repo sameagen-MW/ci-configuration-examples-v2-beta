@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  MATHWORKS_LICENSING_ENDPOINT: 'dev'
+  MATHWORKS_LICENSING_ENDPOINT: 'stage'
 
 jobs:
   # This workflow contains a single job called "my-job"
