@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: maca
+pool:
+  vmImage: ubuntu-latest
 
 steps:
 - script: echo $AGENT_NAME
