@@ -9,7 +9,7 @@ trigger:
 pool: maca
 
 steps:
-- script: echo $NODE_VER
+- script: echo $AGENT_NAME
 - task: InstallMATLAB@1
 - task: RunMATLABCommand@1
   inputs:
