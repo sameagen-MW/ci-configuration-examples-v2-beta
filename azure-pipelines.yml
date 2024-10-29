@@ -6,10 +6,9 @@
 trigger:
 - main
 
-pool: win32
+pool: maca
 steps:
 - script: echo $AGENT_NAME
-- task: InstallMATLAB@1
-- task: RunMATLABCommand@1
+- task: RunMATLABCommand@1.12.27
   inputs:
     command: ver
