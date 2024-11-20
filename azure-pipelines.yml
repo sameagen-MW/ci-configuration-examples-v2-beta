@@ -9,6 +9,6 @@ trigger:
 pool: maca
 steps:
 - script: echo $AGENT_NAME
-- task: RunMATLABCommand@1.12.34
+- task: RunMATLABCommand@1.12.35
   inputs:
     command: ver
